@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="04c68798-dde6-4b66-92bd-7cf62b33f0a6" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="593" column="13" lean-forward="true" selection-start-line="593" selection-start-column="13" selection-end-line="593" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#1282#1573#0" />
+                <element signature="e#1603#1774#0" />
+                <element signature="e#1805#3049#0" />
+                <element signature="e#3078#3300#0" />
+                <element signature="e#3340#6396#0" />
+                <element signature="e#3380#4815#0" />
+                <element signature="e#3465#4815#0" />
+                <element signature="e#3469#3914#0" />
+                <element signature="e#3957#4063#0" />
+                <element signature="e#4834#6378#0" />
+                <element signature="e#4902#6378#0" />
+                <element signature="e#4936#6378#0" />
+                <element signature="e#4940#5405#0" />
+                <element signature="e#5455#5561#0" />
+                <element signature="e#6440#7696#0" />
+                <element signature="e#6480#7288#0" />
+                <element signature="e#6565#7288#0" />
+                <element signature="e#6569#6793#0" />
+                <element signature="e#6835#6941#0" />
+                <element signature="e#7307#7678#0" />
+                <element signature="e#7375#7678#0" />
+                <element signature="e#7409#7678#0" />
+                <element signature="e#7413#7645#0" />
+                <element signature="e#7739#8209#0" />
+                <element signature="e#7779#7963#0" />
+                <element signature="e#7864#7963#0" />
+                <element signature="e#7868#7934#0" />
+                <element signature="e#7982#8191#0" />
+                <element signature="e#8050#8191#0" />
+                <element signature="e#8084#8191#0" />
+                <element signature="e#8088#8158#0" />
+                <element signature="e#8252#8822#0" />
+                <element signature="e#8292#8526#0" />
+                <element signature="e#8377#8526#0" />
+                <element signature="e#8381#8497#0" />
+                <element signature="e#8545#8804#0" />
+                <element signature="e#8613#8804#0" />
+                <element signature="e#8647#8804#0" />
+                <element signature="e#8651#8771#0" />
+                <element signature="e#8866#9336#0" />
+                <element signature="e#8906#9090#0" />
+                <element signature="e#8991#9090#0" />
+                <element signature="e#8995#9061#0" />
+                <element signature="e#9109#9318#0" />
+                <element signature="e#9177#9318#0" />
+                <element signature="e#9211#9318#0" />
+                <element signature="e#9215#9285#0" />
+                <element signature="e#9403#9590#0" />
+                <element signature="e#9654#9814#0" />
+                <element signature="e#10031#10490#0" />
+                <element signature="e#10600#10871#0" />
+                <element signature="e#10682#10871#0" />
+                <element signature="e#10812#10871#0" />
+                <element signature="e#10874#11076#0" />
+                <element signature="e#35741#36297#0" />
+                <element signature="e#35784#36270#0" />
+                <element signature="e#36006#36077#0" />
+                <element signature="e#36337#36447#0" />
+                <element signature="e#36494#38712#0" />
+                <element signature="e#36571#37456#0" />
+                <element signature="e#36597#37456#0" />
+                <element signature="e#37487#37964#0" />
+                <element signature="e#37513#37964#0" />
+                <element signature="e#37995#38127#0" />
+                <element signature="e#38021#38127#0" />
+                <element signature="e#38158#38428#0" />
+                <element signature="e#38184#38428#0" />
+                <element signature="e#38447#38579#0" />
+                <element signature="e#38473#38579#0" />
+                <element signature="e#38760#39001#0" />
+                <element signature="e#38826#38979#0" />
+                <element signature="e#38936#38979#0" />
+                <element signature="e#39037#39598#0" />
+                <element signature="e#39629#39727#0" />
+                <element signature="e#39798#40064#0" />
+                <element signature="e#39858#39992#0" />
+                <element signature="e#39951#39992#0" />
+                <element signature="e#40099#40135#0" />
+                <element signature="e#40190#40370#0" />
+                <element signature="e#40299#40370#0" />
+                <element signature="e#40314#40369#0" />
+                <element signature="e#40326#40368#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/name_tracker.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/speak_helper.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="488">
+              <caret line="46" column="45" lean-forward="true" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../FlashWeb/venv/Lib/site-packages/google_speech/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2023">
+              <caret line="136" column="24" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>xin chào</find>
+      <find>sh =</find>
+      <find>sh.</find>
+      <find>tôi có</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../FlashWeb/venv/Lib/site-packages/google_speech/__init__.py" />
+        <option value="$PROJECT_DIR$/test1.py" />
+        <option value="$PROJECT_DIR$/speak_helper.py" />
+        <option value="$PROJECT_DIR$/name_tracker.py" />
+        <option value="$PROJECT_DIR$/app.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="491" />
+    <option name="y" value="168" />
+    <option name="width" value="1621" />
+    <option name="height" value="1078" />
+  </component>
+  <component name="ProjectId" id="1PRNzAJ35QBboiswEThJFC3rv5Y" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FlashWeb1508" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlashWeb1508" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Nhi Le\PycharmProjects\FlashWeb\Data" />
+      <recent name="C:\Users\Nhi Le\PycharmProjects\FlashWeb" />
+      <recent name="C:\Users\Python Team\PycharmProjects\FlashWeb\static\Image" />
+      <recent name="C:\Users\Python Team\PycharmProjects\FlashWeb\Models" />
+      <recent name="C:\Users\Python Team\PycharmProjects\FlashWeb" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nhi Le\PycharmProjects\FlashWeb\Audio" />
+      <recent name="C:\Users\Nhi Le\PycharmProjects\FlashWeb" />
+      <recent name="C:\Users\Nhi Le\PycharmProjects\FlashWeb\base" />
+      <recent name="C:\Users\Python Team\PycharmProjects\FlashWeb\static\CSS" />
+      <recent name="C:\Users\Python Team\PycharmProjects\FlashWeb\static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.app (2)">
+    <configuration name="app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FlashWeb" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Nhi Le\PycharmProjects\FlashWeb\Audio\app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FlashWeb" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FlashWeb" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FlashWeb" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Nhi Le\PycharmProjects\FlashWeb\Audio\app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FlashWeb" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app (2)" />
+        <item itemvalue="Python.test1" />
+        <item itemvalue="Python.app (3)" />
+        <item itemvalue="Python.app (1)" />
+        <item itemvalue="Python.app" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04c68798-dde6-4b66-92bd-7cf62b33f0a6" name="Default Changelist" comment="" />
+      <created>1562740100582</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562740100582</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1477" height="888" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2498265" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22457068" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3989432" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/camera.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="981" column="32" selection-start-line="981" selection-start-column="32" selection-end-line="981" selection-end-column="45" />
+          <folding>
+            <element signature="e#1240#1531#0" />
+            <element signature="e#1561#1732#0" />
+            <element signature="e#1763#3007#0" />
+            <element signature="e#3036#3258#0" />
+            <element signature="e#3298#6354#0" />
+            <element signature="e#3338#4773#0" />
+            <element signature="e#3423#4773#0" />
+            <element signature="e#3427#3872#0" />
+            <element signature="e#3915#4021#0" />
+            <element signature="e#4792#6336#0" />
+            <element signature="e#4860#6336#0" />
+            <element signature="e#4894#6336#0" />
+            <element signature="e#4898#5363#0" />
+            <element signature="e#5413#5519#0" />
+            <element signature="e#6398#7654#0" />
+            <element signature="e#6438#7246#0" />
+            <element signature="e#6523#7246#0" />
+            <element signature="e#6527#6751#0" />
+            <element signature="e#6793#6899#0" />
+            <element signature="e#7265#7636#0" />
+            <element signature="e#7333#7636#0" />
+            <element signature="e#7367#7636#0" />
+            <element signature="e#7371#7603#0" />
+            <element signature="e#7697#8167#0" />
+            <element signature="e#7737#7921#0" />
+            <element signature="e#7822#7921#0" />
+            <element signature="e#7826#7892#0" />
+            <element signature="e#7940#8149#0" />
+            <element signature="e#8008#8149#0" />
+            <element signature="e#8042#8149#0" />
+            <element signature="e#8046#8116#0" />
+            <element signature="e#8210#8780#0" />
+            <element signature="e#8250#8484#0" />
+            <element signature="e#8335#8484#0" />
+            <element signature="e#8339#8455#0" />
+            <element signature="e#8503#8762#0" />
+            <element signature="e#8571#8762#0" />
+            <element signature="e#8605#8762#0" />
+            <element signature="e#8609#8729#0" />
+            <element signature="e#8824#9294#0" />
+            <element signature="e#8864#9048#0" />
+            <element signature="e#8949#9048#0" />
+            <element signature="e#8953#9019#0" />
+            <element signature="e#9067#9276#0" />
+            <element signature="e#9135#9276#0" />
+            <element signature="e#9169#9276#0" />
+            <element signature="e#9173#9243#0" />
+            <element signature="e#9361#9548#0" />
+            <element signature="e#9612#9772#0" />
+            <element signature="e#9989#10448#0" />
+            <element signature="e#10558#10829#0" />
+            <element signature="e#10640#10829#0" />
+            <element signature="e#10770#10829#0" />
+            <element signature="e#10832#11034#0" />
+            <element signature="e#35699#36255#0" />
+            <element signature="e#35742#36228#0" />
+            <element signature="e#35964#36035#0" />
+            <element signature="e#36295#36405#0" />
+            <element signature="e#36452#38670#0" />
+            <element signature="e#36529#37414#0" />
+            <element signature="e#36555#37414#0" />
+            <element signature="e#37445#37922#0" />
+            <element signature="e#37471#37922#0" />
+            <element signature="e#37953#38085#0" />
+            <element signature="e#37979#38085#0" />
+            <element signature="e#38116#38386#0" />
+            <element signature="e#38142#38386#0" />
+            <element signature="e#38405#38537#0" />
+            <element signature="e#38431#38537#0" />
+            <element signature="e#38718#38959#0" />
+            <element signature="e#38784#38937#0" />
+            <element signature="e#38894#38937#0" />
+            <element signature="e#38995#39556#0" />
+            <element signature="e#39587#39685#0" />
+            <element signature="e#39756#40022#0" />
+            <element signature="e#39816#39950#0" />
+            <element signature="e#39909#39950#0" />
+            <element signature="e#40057#40093#0" />
+            <element signature="e#40148#40328#0" />
+            <element signature="e#40257#40328#0" />
+            <element signature="e#40272#40327#0" />
+            <element signature="e#40284#40326#0" />
+            <element signature="e#40378#45196#0" />
+            <element signature="e#40503#42567#0" />
+            <element signature="e#40898#40986#0" />
+            <element signature="e#41014#42567#0" />
+            <element signature="e#41060#42491#0" />
+            <element signature="e#41142#42438#0" />
+            <element signature="e#41518#41683#0" />
+            <element signature="e#41764#41931#0" />
+            <element signature="e#42181#42329#0" />
+            <element signature="e#42586#45196#0" />
+            <element signature="e#42691#45132#0" />
+            <element signature="e#43146#43238#0" />
+            <element signature="e#43274#45132#0" />
+            <element signature="e#43324#45048#0" />
+            <element signature="e#43413#44990#0" />
+            <element signature="e#43778#43951#0" />
+            <element signature="e#44031#44262#0" />
+            <element signature="e#44688#44873#0" />
+            <element signature="e#45258#51426#0" />
+            <element signature="e#45382#48631#0" />
+            <element signature="e#45740#48561#0" />
+            <element signature="e#45936#48257#0" />
+            <element signature="e#46432#46704#0" />
+            <element signature="e#46527#46653#0" />
+            <element signature="e#46768#47013#0" />
+            <element signature="e#46887#47013#0" />
+            <element signature="e#47081#47329#0" />
+            <element signature="e#47203#47329#0" />
+            <element signature="e#47395#47641#0" />
+            <element signature="e#47515#47641#0" />
+            <element signature="e#47707#47952#0" />
+            <element signature="e#47826#47952#0" />
+            <element signature="e#48015#48257#0" />
+            <element signature="e#48131#48257#0" />
+            <element signature="e#48293#48561#0" />
+            <element signature="e#48407#48561#0" />
+            <element signature="e#48419#48560#0" />
+            <element signature="e#48672#51426#0" />
+            <element signature="e#49206#49425#0" />
+            <element signature="e#49473#49716#0" />
+            <element signature="e#49768#50041#0" />
+            <element signature="e#50091#50362#0" />
+            <element signature="e#50412#50655#0" />
+            <element signature="e#50702#50942#0" />
+            <element signature="e#50991#51319#0" />
+            <element signature="e#51030#51269#0" />
+            <element signature="e#51369#51426#0" />
+            <element signature="e#51534#51550#0" />
+            <element signature="e#51599#51733#0" />
+            <element signature="e#51847#53971#0" />
+            <element signature="e#51847#51876#0" />
+            <element signature="e#52024#52875#0" />
+            <element signature="e#52177#52454#0" />
+            <element signature="e#52214#52454#0" />
+            <element signature="e#52332#52454#0" />
+            <element signature="e#52496#52760#0" />
+            <element signature="e#52530#52760#0" />
+            <element signature="e#52638#52760#0" />
+            <element signature="e#52894#53971#0" />
+            <element signature="e#53116#53344#0" />
+            <element signature="e#53226#53344#0" />
+            <element signature="e#53385#53612#0" />
+            <element signature="e#53494#53612#0" />
+            <element signature="e#53653#53880#0" />
+            <element signature="e#53762#53880#0" />
+            <element signature="e#54013#54301#0" />
+            <element signature="e#54087#54262#0" />
+            <element signature="e#54302#54317#0" />
+            <element signature="e#54674#54719#0" />
+            <element signature="e#54773#55140#0" />
+            <element signature="e#54833#54906#0" />
+            <element signature="e#54963#55124#0" />
+            <element signature="e#54970#55124#0" />
+            <element signature="e#54971#55123#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FlashWeb/venv/Lib/site-packages/pydub/playback.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="593" column="13" lean-forward="true" selection-start-line="593" selection-start-column="13" selection-end-line="593" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#1282#1573#0" />
+            <element signature="e#1603#1774#0" />
+            <element signature="e#1805#3049#0" />
+            <element signature="e#3078#3300#0" />
+            <element signature="e#3340#6396#0" />
+            <element signature="e#3380#4815#0" />
+            <element signature="e#3465#4815#0" />
+            <element signature="e#3469#3914#0" />
+            <element signature="e#3957#4063#0" />
+            <element signature="e#4834#6378#0" />
+            <element signature="e#4902#6378#0" />
+            <element signature="e#4936#6378#0" />
+            <element signature="e#4940#5405#0" />
+            <element signature="e#5455#5561#0" />
+            <element signature="e#6440#7696#0" />
+            <element signature="e#6480#7288#0" />
+            <element signature="e#6565#7288#0" />
+            <element signature="e#6569#6793#0" />
+            <element signature="e#6835#6941#0" />
+            <element signature="e#7307#7678#0" />
+            <element signature="e#7375#7678#0" />
+            <element signature="e#7409#7678#0" />
+            <element signature="e#7413#7645#0" />
+            <element signature="e#7739#8209#0" />
+            <element signature="e#7779#7963#0" />
+            <element signature="e#7864#7963#0" />
+            <element signature="e#7868#7934#0" />
+            <element signature="e#7982#8191#0" />
+            <element signature="e#8050#8191#0" />
+            <element signature="e#8084#8191#0" />
+            <element signature="e#8088#8158#0" />
+            <element signature="e#8252#8822#0" />
+            <element signature="e#8292#8526#0" />
+            <element signature="e#8377#8526#0" />
+            <element signature="e#8381#8497#0" />
+            <element signature="e#8545#8804#0" />
+            <element signature="e#8613#8804#0" />
+            <element signature="e#8647#8804#0" />
+            <element signature="e#8651#8771#0" />
+            <element signature="e#8866#9336#0" />
+            <element signature="e#8906#9090#0" />
+            <element signature="e#8991#9090#0" />
+            <element signature="e#8995#9061#0" />
+            <element signature="e#9109#9318#0" />
+            <element signature="e#9177#9318#0" />
+            <element signature="e#9211#9318#0" />
+            <element signature="e#9215#9285#0" />
+            <element signature="e#9403#9590#0" />
+            <element signature="e#9654#9814#0" />
+            <element signature="e#10031#10490#0" />
+            <element signature="e#10600#10871#0" />
+            <element signature="e#10682#10871#0" />
+            <element signature="e#10812#10871#0" />
+            <element signature="e#10874#11076#0" />
+            <element signature="e#35741#36297#0" />
+            <element signature="e#35784#36270#0" />
+            <element signature="e#36006#36077#0" />
+            <element signature="e#36337#36447#0" />
+            <element signature="e#36494#38712#0" />
+            <element signature="e#36571#37456#0" />
+            <element signature="e#36597#37456#0" />
+            <element signature="e#37487#37964#0" />
+            <element signature="e#37513#37964#0" />
+            <element signature="e#37995#38127#0" />
+            <element signature="e#38021#38127#0" />
+            <element signature="e#38158#38428#0" />
+            <element signature="e#38184#38428#0" />
+            <element signature="e#38447#38579#0" />
+            <element signature="e#38473#38579#0" />
+            <element signature="e#38760#39001#0" />
+            <element signature="e#38826#38979#0" />
+            <element signature="e#38936#38979#0" />
+            <element signature="e#39037#39598#0" />
+            <element signature="e#39629#39727#0" />
+            <element signature="e#39798#40064#0" />
+            <element signature="e#39858#39992#0" />
+            <element signature="e#39951#39992#0" />
+            <element signature="e#40099#40135#0" />
+            <element signature="e#40190#40370#0" />
+            <element signature="e#40299#40370#0" />
+            <element signature="e#40314#40369#0" />
+            <element signature="e#40326#40368#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/name_tracker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FlashWeb/venv/Lib/site-packages/google_speech/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2023">
+          <caret line="136" column="24" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/speak_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="46" column="45" lean-forward="true" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

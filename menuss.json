@@ -1,0 +1,183 @@
+[
+  {
+    "menuid": 1,
+    "menuname": "Phin Đen Nóng",
+    "menuprice": 29000
+  },
+  {
+    "menuid": 2,
+    "menuname": "Phin Sữa Nóng",
+    "menuprice": 29000
+  },
+  {
+    "menuid": 3,
+    "menuname": "Phin Sữa Đá",
+    "menuprice": 29000
+  },
+  {
+    "menuid": 4,
+    "menuname": "Phin Đen Đá",
+    "menuprice": 29000
+  },
+  {
+    "menuid": 5,
+    "menuname": "Espesso",
+    "menuprice": 44000
+  },
+  {
+    "menuid": 6,
+    "menuname": "Americano",
+    "menuprice": 44000
+  },
+  {
+    "menuid": 7,
+    "menuname": "Caramel Macchiato",
+    "menuprice": 59000
+  },
+  {
+    "menuid": 8,
+    "menuname": "Mocha Macchiato",
+    "menuprice": 59000
+  },
+  {
+    "menuid": 9,
+    "menuname": "Latte",
+    "menuprice": 54000
+  },
+  {
+    "menuid": 10,
+    "menuname": "Caramel Phin Freeze",
+    "menuprice": 49000
+  },
+  {
+    "menuid": 11,
+    "menuname": "Classic Phin Freeze",
+    "menuprice": 49000
+  },
+  {
+    "menuid": 12,
+    "menuname": "Cappuccino",
+    "menuprice": 54000
+
+  },
+  {
+    "menuid": 13,
+    "menuname": "Freeze Trà Xanh",
+    "menuprice": 49000
+  },
+  {
+    "menuid": 14,
+    "menuname": "Cookies & Cream",
+    "menuprice": 49000
+  },
+  {
+    "menuid": 15,
+    "menuname": "Freeze Sô-Cô-La",
+    "menuprice": 49000
+  },
+  {
+    "menuid": 16,
+    "menuname": "Trà Sen Vàng",
+    "menuprice": 39000
+  },
+  {
+    "menuid": 17,
+    "menuname": "Trà Thạch Vải",
+    "menuprice": 39000
+  },
+  {
+    "menuid": 18,
+    "menuname": "Trà Thạch Đào",
+    "menuprice": 39000
+  },
+  {
+    "menuid": 19,
+    "menuname": "Trà Thanh Đào",
+    "menuprice": 39000
+  },
+  {
+    "menuid": 20,
+    "menuname": "Bánh Mì Thịt Nướng",
+    "menuprice": 19000
+  },
+  {
+    "menuid": 21,
+    "menuname": "Bánh Mì Xíu Mại",
+    "menuprice": 19000
+  },
+  {
+    "menuid": 22,
+    "menuname": "Bánh Mì Chả Lụa Xá Xíu",
+    "menuprice": 19000
+  },
+  {
+    "menuid": 23,
+    "menuname": "Bánh Mì Gà Xé Nước Tương",
+    "menuprice": 19000
+  },
+  {
+    "menuid": 24,
+    "menuname": "Bánh Phô Mai Cà Phê",
+    "menuprice": 29000
+  },
+  {
+    "menuid": 25,
+    "menuname": "Bánh Chuối",
+    "menuprice": 19000
+  },
+  {
+    "menuid": 26,
+    "menuname": "Bánh Mousse Đào",
+    "menuprice": 29000
+  },
+  {
+    "menuid": 27,
+    "menuname": "Bánh Mousse Cacao",
+    "menuprice": 29000
+  },
+  {
+    "menuid": 28,
+    "menuname": "Bánh Sô-cô-la Highlands",
+    "menuprice": 29000
+  },
+  {
+    "menuid": 29,
+    "menuname": "Bánh Phô Mai Chanh Dây",
+    "menuprice": 29000
+  },
+  {
+    "menuid": 30,
+    "menuname": "Bánh Phô Mai Trà Xanh",
+    "menuprice": 29000
+  },
+  {
+    "menuid": 31,
+    "menuname": "Bánh Caramel Phô Mai",
+    "menuprice": 29000
+  },
+  {
+    "menuid": 32,
+    "menuname": "Bánh Tiramisu",
+    "menuprice": 19000
+  },
+  {
+    "menuid": 33,
+    "menuname": "Phin inox",
+    "menuprice": 79000
+  },
+  {
+    "menuid": 34,
+    "menuname": "Ly Sứ Mosaic",
+    "menuprice": 149000
+  },
+  {
+    "menuid": 35,
+    "menuname": "Cà phê đóng gói truyền thống 200gr",
+    "menuprice": 47000
+  },
+  {
+    "menuid": 36,
+    "menuname": "Cà phê đóng gói truyền thống 1kg",
+    "menuprice": 2350000
+  }
+]

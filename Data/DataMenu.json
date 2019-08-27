@@ -1,0 +1,332 @@
+[
+  {
+    "tag": "cafe",
+    "unit" :"ly",
+    "species": "cafe",
+    "name": "nóng",
+    "price": 12000
+  },
+  {
+    "tag": "Cà phê",
+    "unit" : "ly",
+    "species": "Cà phê phin",
+    "name": "Phin đen nóng",
+    "price": 29000
+  },
+ {
+    "tag": "cafe",
+    "unit" : "ly",
+    "species": "Cafe",
+    "name": "sữa nóng",
+    "price": 12000
+  },
+  {
+    "tag": "cafe",
+    "unit" : "ly",
+    "species": "cafe",
+    "name": "đen",
+    "price": 12000
+  },
+  {
+    "tag": "cafe",
+    "unit" : "ly",
+    "species": "cafe",
+    "name": "sữa",
+    "price": 12000
+  },
+  {
+    "tag": "cafe",
+    "unit" : "ly",
+    "species": "cafe",
+    "name": "đen đá",
+    "price": 12000
+  },
+  {
+    "tag": "cafe",
+    "unit" : "ly",
+    "species": "cafe",
+    "name": "sữa đá",
+    "price": 12000
+  }
+  ,
+  {
+    "tag": "Cà phê",
+    "unit" : "ly",
+    "species": "Cà phê phin",
+    "name": "Phin sữa nóng",
+    "price": 29000,
+    "link": "https://www.highlandscoffee.com.vn/vnt_upload/product/06_2018/PHIN-SUA-NONG.png"
+  },
+  {
+    "tag": "Cà phê",
+    "unit" : "ly",
+    "species": "Cà phê phin",
+    "name": "Phin sữa đá",
+    "price": 29000,
+    "link": "https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/PHIN-SUA-DA.png"
+  },
+  {
+    "tag": "Cà phê",
+    "unit" : "ly",
+    "species": "Cà phê phin",
+    "name": "đen",
+    "price": 10000,
+    "link": "https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/PHIN-SUA-DA.png"
+  },{
+    "tag": "Cà phê",
+    "unit" : "ly",
+    "species": "Cà phê phin",
+    "name": "đen đá",
+    "price": 10000,
+    "link": "https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/PHIN-SUA-DA.png"
+  },
+  {
+    "tag": "Cà phê",
+    "unit" : "ly",
+    "species": "Cà phê phin",
+    "name": "sữa đá",
+    "price": 10000,
+    "link": "https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/PHIN-SUA-DA.png"
+  },
+  {
+    "tag": "Cà phê",
+    "unit" : "ly",
+    "species": "Cà phê phin",
+    "name": "sữa",
+    "price": 10000,
+    "link": "https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/PHIN-SUA-DA.png"
+  },
+  {
+    "tag": "Cà phê",
+    "unit" : "ly",
+    "species": "Cà phê phin",
+    "name": "Phin đen đá",
+    "price": 29000
+  },
+  {
+    "tag": "Cà phê",
+    "unit" : "ly",
+    "species": "Cà phê Espresso",
+    "name": "Americano",
+    "price": 44000
+  },
+  {
+    "tag": "Cà phê",
+    "unit" : "ly",
+    "species": "Cà phê Espresso",
+    "name": "Espresso",
+    "price": 44000
+  },
+  {
+    "tag": "Cà phê",
+    "unit" : "ly",
+    "species": "Cà phê Espresso",
+    "name": "Caramel Macchiato",
+    "price": 59000
+  },
+  {
+    "tag": "Cà phê",
+    "unit" : "ly",
+    "species": "Cà phê Espresso",
+    "name": "Mocha Macchiato",
+    "price": 59000
+  },
+  {
+    "tag": "Cà phê",
+    "unit" : "ly",
+    "species": "Cà phê Espresso",
+    "name": "Latte",
+    "price": 54000
+  },
+  {
+    "tag": "Cà phê",
+    "unit" : "ly",
+    "species": "Cà phê Espresso",
+    "name": "Cappuccino",
+    "price": 54000
+  },
+  {
+    "tag": "Freeze",
+    "unit" : "ly",
+    "species": "Freeze cà phê phin",
+    "name": "Caramel phin",
+    "price": 49000,
+    "link": "https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/.png"
+  },
+  {
+    "tag": "Freeze",
+    "unit" : "ly",
+    "species": "Freeze cà phê phin",
+    "name": "phin freeze",
+    "price": 49000,
+    "link": "https://www.highlandscoffee.com.vn/vnt_upload/product/05_2018/CLASSIC-FREEZE.png"
+  },
+  {
+    "tag": "Freeze",
+    "unit" : "ly",
+    "species": "Freeze Không Cà Phê",
+    "name": "trà xanh",
+    "price": 49000,
+    "link": "https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/GTF.png"
+  },
+    {
+    "tag": "Freeze",
+      "unit" : "ly",
+    "species": "Freeze Không Cà Phê",
+    "name": "Cookies & cream",
+    "price": 49000,
+    "link": "https://www.highlandscoffee.com.vn/vnt_upload/product/05_2018/COOKIES-CREAM.png"
+  },
+  {
+    "tag": "Freeze",
+    "unit" : "ly",
+    "species": "Freeze Không Cà Phê",
+    "name": "Sô-Cô_La",
+    "price": 49000,
+    "link": "https://www.highlandscoffee.com.vn/vnt_upload/product/05_2018/CHOCOLATE-FREEZE.png"
+  },
+    {
+    "tag": "Trà",
+      "unit" : "ly",
+    "species": "Trà sen vàng",
+    "name": "sen vàng",
+    "price": 39000,
+    "link": "https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/TRASENVANG.png"
+  },
+  {
+    "tag": "Trà",
+    "unit" : "ly",
+    "species": "Trà thạch vải",
+    "name": " thạch vải",
+    "price": 39000,
+    "link": "https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/TRATHACHVAI.png"
+  },
+  {
+    "tag": "Trà",
+    "unit" : "ly",
+    "species": "Trà thạch đào",
+    "name": " thạch đào",
+    "price": 39000,
+    "link": "https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/TRATHACHDAO.png"
+  },
+  {
+    "tag": "Trà",
+    "unit" : "ly",
+    "species": "Trà thanh đào",
+    "name": " thanh đào",
+    "price": 39000,
+    "link": "https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/TRATHANHDAO.png"
+  },
+   {
+    "tag": "Trà",
+     "unit" : "ly",
+    "species": "Trà thanh đào",
+    "name": " đá đường",
+    "price": 39000,
+    "link": "https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/TRATHANHDAO.png"
+  },
+  {
+    "tag": "Bánh mì",
+    "unit" : "ổ",
+    "species": "Bánh mì",
+    "name": "Thịt nướng",
+    "price": 19000,
+    "link": "https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/BMTHITNUONG.png"
+  },
+  {
+    "tag": "Bánh mì",
+    "unit" : "ổ",
+    "species": "Bánh mì",
+    "name": "Xíu mại",
+    "price": 19000,
+    "link": "https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/BMXIUMAI.png"
+  },
+  {
+    "tag": "Bánh mì",
+    "unit" : "ổ",
+    "species": "Bánh mì",
+    "name": "Chả lụa xá xíu",
+    "price": 19000,
+    "link": "https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/BMCHALUAXAXIU.png"
+  },
+   {
+    "tag": "Bánh mì",
+     "unit" : "ổ",
+    "species": "Bánh mì",
+    "name": "không",
+    "price": 5000,
+    "link": "https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/BMCHALUAXAXIU.png"
+  },
+  {
+    "tag": "Bánh mì ",
+    "unit" : "ổ",
+    "species": "Bánh mì",
+    "name": "Gà xé nước tương",
+    "price": 19000,
+    "link": "https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/BMGAXE.png"
+  },
+  {
+    "tag": "Bánh",
+    "unit" : "cái",
+    "species": "Bánh ngọt",
+    "name": " phô mai cà phê",
+    "price": 29000,
+    "link": "https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/PHOMAICAPHE.jpg"
+  },
+  {
+    "tag": "Bánh",
+    "unit" : "cái",
+    "species": "Bánh ngọt",
+    "name": "Chuối",
+    "price": 19000,
+    "link": "https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/BANHCHUOI.jpg"
+  },
+  {
+    "tag": "Bánh",
+    "unit" : "cái",
+    "species": "Bánh ngọt",
+    "name": " mousse đào",
+    "price": 29000,
+    "link": "https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/MOUSSEDAO.png"
+  },
+  {
+    "tag": "Bánh",
+    "unit" : "cái",
+    "species": "Bánh ngọt",
+    "name": " mousse cacao",
+    "price": 29000,
+    "link": "https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/MOUSSECACAO.png"
+  },
+  {
+    "tag": "Bánh",
+    "unit" : "cái",
+    "species": "Bánh ngọt",
+    "name": " Sô-cô-la highlands",
+    "price": 29000,
+    "link": "https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/SOCOLAHL.png"
+  },
+  {
+    "tag": "Bánh",
+    "unit" : "cái",
+    "species": "Bánh ngọt",
+    "name": "phô mai chanh dây",
+    "price": 29000,
+    "link": "https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/PHOMAICHANHDAY.jpg"
+  },
+  {
+    "tag": "Bánh",
+    "unit" : "cái",
+    "species": "Bánh ngọt",
+    "name": "phô mai trà xanh",
+    "price": 29000,
+    "link": "https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/PHOMAITRAXANH.jpg"
+  },
+  {
+    "tag": "Bánh",
+    "unit" : "cái",
+    "species": "Bánh ngọt",
+    "name": " tiramisu",
+    "price": 19000,
+    "link": "https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/TIRAMISU.jpg"
+  }
+]

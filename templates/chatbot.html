@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<html lang="en">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='CSS/menu.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='CSS/Template.css')}}">
+    <link  rel="stylesheet"  type="text/css" href="{{url_for('static', filename='CSS/Footer.css')}}">
+
+
+
+
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:  #b22830;">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+     <a class="navbar-brand" href="#">
+     <img class="rounded" src="/static/Image/logo1.png" width="100px" height="75px" >
+  </a>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Trang Chủ <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Thực Đơn</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Dịch Vụ</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" name="user_input" id="dataSearch" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="basic-text1" >Search</button>
+    </form>
+  </div>
+</nav>
+
+
+
+<div class="d-flex justify-content-between mt-4">
+       <div class="row ml-1 pre-scrollable" style="max-height: 650px" id="Scrollable">
+                <div class="items" id="items">
+                    <h3 class="mr-4"><p>{{Title}}</p></h3>
+                    {% for data in Menu %}
+                    <div data-price="290" class="item">
+                        <img src="{{data['Img']}}" alt="jacket" class="img ">
+                            <div class="info">
+                                <h3>{{data['Name']}}</h3>
+                                <p class="descroption">{{data['Category']}}</p>
+                                <h5>{{data['Price']}}  VNĐ </h5>
+                            </div>
+                    </div>
+                    {%endfor%}
+                </div>
+
+
+    </div>
+       <div class="col-md-4 col-xl-6 chat mt-2" >
+					<div class="card">
+						<div class="card-header msg_head">
+							<div class="d-flex bd-highlight">
+								<div class="img_cont">
+									<img src="{{url_for('static', filename='RoBotIcon.png')}}" class="rounded-circle user_img">
+									<span class="online_icon"></span>
+								</div>
+								<div class="user_info">
+									<span> I Am RoBo </span>
+									<p>online</p>
+								</div>
+
+							</div>
+							<span id="action_menu_btn"><i class="fas fa-ellipsis-v"></i></span>
+						</div>
+						<div class="card-body msg_card_body" id="chatbox">
+
+						</div>
+						<div class="card-footer">
+							<div class="input-group" id="userInput">
+								<div class="input-group-append">
+									<span class="input-group-text attach_btn"><i class="fas fa-paperclip"></i></span>
+								</div>
+								<textarea name="msg"  id="textInput" class="form-control type_msg" placeholder="Type your message..."></textarea>
+								<div class="input-group-append">
+									<button type="submit" class="input-group-text send_btn" id="buttonInput"><i class="fas fa-location-arrow"></i></button>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+  </div>
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Sản Phẩm Đã Được Đặt</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <table id="example" class="table table-striped table-bordered" style="width:100%">
+          <thead>
+              <tr>
+                  <th>Sản Phẩm</th>
+                  <th>Số Lượng</th>
+                  <th>Đơn Gía</th>
+              </tr>
+          </thead>
+         <tbody id="OrderItem">
+
+         </tfoot>
+     </table>
+      </div>
+
+      <!-- Modal footer -->
+        <div class="modal-footer" id="PriceOrder">
+         </div>
+      <div class="modal-footer">
+        <button type="button"  onclick="myFunction()" class="btn btn-danger" data-dismiss="modal">Chấp nhận</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+	<section id="footer" class="mt-4" >
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12  ">
+					<ul class="list-unstyled list-inline social text-center">
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
+					</ul>
+				</div>
+				</hr>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+					<p><u><a href="https://www.highlandscoffee.com.vn/">&copy; 2018 Highlands Coffee. All rights reserved </a></u>Đây là bản demo mọi sản phẩm dựa trên website chính thức của  Highlands Coffee được thực hiển bởi team CSE-TEAM </p>
+					<p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="https://www.highlandscoffee.com.vn/" target="_blank">Highlands Coffee</a></p>
+				</div>
+				</hr>
+			</div>
+		</div>
+	</section>
+<!-- Footer -->
+
+</body>
+<script>
+       	$(document).ready(function() {
+                 getBotResponseAuto();
+            });
+
+        function getBotResponse() {
+          var rawText = $("#textInput").val();
+          var userHtml = '<div class="d-flex justify-content-start mb-4"><div class="img_cont_msg"><img src="{{url_for('static', filename='UserIcon.png')}}" class="rounded-circle user_img_msg"></div><div class="msg_cotainer"><span>' +  rawText + '</span></div></div>';
+          $("#textInput").val("");
+          $("#chatbox").append(userHtml);
+
+
+          rawText = rawText.toLowerCase();
+          document.getElementById('userInput').scrollIntoView({block: 'end', behavior: 'smooth'});
+          $.get("/get", { msg: rawText }).done(function(data) {
+                if (data.Data == "Tôi chưa hiểu ý bạn lắm" || data.Data == "Có vẻ như bạn chưa đặt gì cả" || data.Data == "Tôi chưa hiểu rõ ý bạn lắm, vui lòng nhắc lại" || data.Data == "Kết nói với server đang bị gián đoạn quý khách vui lòng thông cảm "|| data.Data == "Vâng chào bạn, tôi có thể giúp gì cho bạn" || data.Data == "Chúng tôi hiện chưa có sản phẩm này á" || data.Data == "Tôi chưa hiểu câu nói của bạn" ||  data.Data == "Tôi chưa hiểu câu nói của bạn "){
+                    var botHtml = '<div class="d-flex justify-content-end mb-4"><div class="msg_cotainer_send"><span>'  + data.Data + '</span></div><div class="img_cont_msg"><img src="{{url_for('static', filename='RoBotIcon.png')}}" class="rounded-circle user_img_msg"></div></div>';
+                    $("#chatbox").append(botHtml);
+                     document.getElementById('userInput').scrollIntoView({block: 'end', behavior: 'smooth'});
+
+                }else if (data.Data !=  "Tôi chưa hiểu ý bạn lắm" && data.Data != 'Order' || data.Data !=  "Có vẻ như bạn chưa đặt gì cả" && data.Data != 'Order' || data.Data !=  "Tôi chưa hiểu rõ ý bạn lắm, vui lòng nhắc lại" && data.Data != 'Order' || data.Data !=  "Kết nói với server đang bị gián đoạn quý khách vui lòng thông cảm" && data.Data != 'Order' || data.Data !=  "Vâng chào bạn, tôi có thể giúp gì cho bạn" && data.Data != 'Order' ||  data.Data != "Chúng tôi hiện chưa có sản phẩm này á" && data.Data != 'Order' ||  data.Data !=  "Tôi chưa hiểu câu nói của bạn" && data.Data != 'Order' ||  "Tôi chưa hiểu câu nói của bạn " && data.Data != 'Order'){
+                      for (var i = 0 ; i< data.Data.length;i++){
+                     var botHtml = '<div class="d-flex justify-content-end mb-4"><div class="msg_cotainer_send"><span>'  + data.Data[i] + '</span></div><div class="img_cont_msg"><img src="{{url_for('static', filename='RoBotIcon.png')}}" class="rounded-circle user_img_msg"></div></div>';
+                    $("#chatbox").append(botHtml);
+                     document.getElementById('userInput').scrollIntoView({block: 'end', behavior: 'smooth'});
+                    }
+                      GetMenuAjax(data.Data)
+
+                }
+                if (data.Data == "Order"){
+                   GetOrder()
+                   $('#myModal').modal('show');
+                }
+
+
+          });
+        }
+        function getBotResponseAuto() {
+          var rawText = "a";
+<!--          var userHtml = '<div class="d-flex justify-content-start mb-4"><div class="img_cont_msg"><img src="{{url_for('static', filename='UserIcon.png')}}" class="rounded-circle user_img_msg"></div><div class="msg_cotainer"><span>' +  rawText + '</span></div></div>';-->
+          $("#textInput").val("");
+<!--          $("#chatbox").append(userHtml);-->
+
+
+          rawText = rawText.toLowerCase();
+          document.getElementById('userInput').scrollIntoView({block: 'end', behavior: 'smooth'});
+          $.get("/get", { msg: rawText }).done(function(data) {
+                if (data.Data == "Tôi chưa hiểu ý bạn lắm" || data.Data == "Có vẻ như bạn chưa đặt gì cả" || data.Data == "Tôi chưa hiểu rõ ý bạn lắm, vui lòng nhắc lại" || data.Data == "Kết nói với server đang bị gián đoạn quý khách vui lòng thông cảm "|| data.Data == "Vâng chào bạn, tôi có thể giúp gì cho bạn" || data.Data == "Tôi chưa hiểu câu nói của bạn" || data.Data == "NoReturn" || data.Data == "Món quý khách vừa gọi không có"){
+                    if(data.Data == "NoReturn"){
+                           getBotResponseAuto();
+                    }else{
+                         var div = document.getElementById('chatbox');
+                         while(div.firstChild){
+                            div.removeChild(div.firstChild);
+                         }
+                         var botHtml = '<div class="d-flex justify-content-end mb-4"><div class="msg_cotainer_send"><span>'  + data.Data + '</span></div><div class="img_cont_msg"><img src="{{url_for('static', filename='RoBotIcon.png')}}" class="rounded-circle user_img_msg"></div></div>';
+                         $("#chatbox").append(botHtml);
+                         document.getElementById('userInput').scrollIntoView({block: 'end', behavior: 'smooth'});
+
+                    }
+
+
+                }else if (data.Data !=  "Tôi chưa hiểu ý bạn lắm" && data.Data != 'Order' || data.Data !=  "Có vẻ như bạn chưa đặt gì cả" && data.Data != 'Order' || data.Data !=  "Tôi chưa hiểu rõ ý bạn lắm, vui lòng nhắc lại" && data.Data != 'Order' || data.Data !=  "Kết nói với server đang bị gián đoạn quý khách vui lòng thông cảm" && data.Data != 'Order' || data.Data !=  "Vâng chào bạn, tôi có thể giúp gì cho bạn" && data.Data != 'Order' || data.Data != "Tôi chưa hiểu câu nói của bạn" && data.Data != 'Order' || data.Data != "NoReturn" && data.Data != 'Order' ||data.Data != "Món quý khách vừa gọi không có" && data.Data != 'Order'){
+                       var div = document.getElementById('chatbox');
+                         while(div.firstChild){
+                            div.removeChild(div.firstChild);
+                         }
+                      for (var i = 0 ; i< data.Data.length;i++){
+                     var botHtml = '<div class="d-flex justify-content-end mb-4"><div class="msg_cotainer_send"><span>'  + data.Data[i] + '</span></div><div class="img_cont_msg"><img src="{{url_for('static', filename='RoBotIcon.png')}}" class="rounded-circle user_img_msg"></div></div>';
+                    $("#chatbox").append(botHtml);
+                     document.getElementById('userInput').scrollIntoView({block: 'end', behavior: 'smooth'});
+                    }
+                 GetMenuAjax(data.Data)
+
+                }
+                if (data.Data == "Order"){
+                   GetOrder()
+                   $('#myModal').modal('show');
+
+                }
+
+                if (data.Data == "Return"){
+                     location.href = '/GoIndex';
+
+                }
+
+                 getBotResponseAuto();
+
+          });
+        }
+
+        $("#textInput").keypress(function(e) {
+            if(e.which == 13) {
+                getBotResponse();
+            }
+        });
+        $("#buttonInput").click(function() {
+          getBotResponse();
+        })
+
+
+
+
+        function GetMenuAjax(datas){
+            var jsonString = JSON.stringify(datas)
+            $.ajax({
+               data : {
+                    user_input :jsonString, dataJson : "getdata"
+                },
+                type : 'POST',
+                url : '/process'
+            })
+            .done(function(Menu) {
+
+                if (Menu.Error) {
+
+                }
+                else {
+                  if ((Menu.Menu.length) < 7) {
+                       $("#Scrollable").attr('class','row ml-1');
+                  }else{
+                       $("#Scrollable").attr('class','row ml-1 pre-scrollable mt-2');
+                  }
+
+                  var div = document.getElementById('items');
+                  while(div.firstChild){
+                      div.removeChild(div.firstChild);
+                  }
+                  for (var i = 0 ; i < Menu.Menu.length ; i++){
+                      var MenuHtml = '<div data-price="290" class="item"> <img src="'+Menu.Menu[i].Img+'" alt="jacket" class="img "><div class="info"><h3>'+Menu.Menu[i].Name +
+                      '</h3><p class="descroption">' + Menu.Menu[i].Category + '</p> <h5>' + Menu.Menu[i].Price + "VNĐ " + '</h5> </div> </div>'
+                      $("#items").append( MenuHtml);
+
+                  }
+                  if (datas == "order"){
+                      var div = document.getElementById('OrderItem');
+
+                      while(div.firstChild){
+                          div.removeChild(div.firstChild);
+                      }
+                      var price = 0
+                      for (var i = 0 ; i < Menu.Order.length ; i++){
+                          price = price + parseInt(Menu.Order[i].price)
+                          var MenuHtml = '<tr><td>' +Menu.Order[i].name+'</td><td>'+Menu.Order[i].num_order+'</td><td>'+Menu.Order[i].price+ " VNĐ " +'</td></tr>'
+                          $("#OrderItem").append( MenuHtml);
+
+                      }
+                      var div = document.getElementById('PriceOrder');
+                      while(div.firstChild){
+                          div.removeChild(div.firstChild);
+                      }
+                      var htmlPrice = '<span class="form-control-static pull-left">' + " Tổng Gía  : " + price + ",000" + " VNĐ " + '</span>'
+                       $("#PriceOrder").append(htmlPrice);
+                      }
+
+                }
+
+            });
+
+            event.preventDefault();
+
+        }
+        function GetOrder(){
+            $.ajax({
+                data : {
+                    user_input :'order', dataJson : "Order"
+                },
+                type : 'POST',
+                url : '/process'
+            })
+            .done(function(Order) {
+
+                if (Order.Error) {
+
+                }
+                else {
+                  var div = document.getElementById('OrderItem');
+
+                  while(div.firstChild){
+                      div.removeChild(div.firstChild);
+                  }
+                  var price = 0
+
+                  for (var i = 0 ; i < Order.Order.length ; i++){
+                      price = price + parseInt(Order.Order[i].num_order)*parseInt(Order.Order[i].price)
+                      var MenuHtml = '<tr><td>' +Order.Order[i].name+'</td><td>'+Order.Order[i].num_order+'</td><td>'+Order.Order[i].price+ " VNĐ " +'</td></tr>'
+                      $("#OrderItem").append( MenuHtml);
+
+                  }
+                  var div = document.getElementById('PriceOrder');
+                  while(div.firstChild){
+                      div.removeChild(div.firstChild);
+                  }
+                  var htmlPrice = '<span class="form-control-static pull-left">' + " Tổng Gía  : " + price  + ",000 VNĐ " + '</span>'
+                   $("#PriceOrder").append(htmlPrice);
+
+                }
+
+            });
+
+            event.preventDefault();
+
+        }
+
+        function myFunction() {
+                $.ajax({
+                data : {
+                    user_input :'finish', dataJson : "Order"
+                },
+                type : 'POST',
+                url : '/process'
+            })
+            .done(function(Order) {
+
+                if (Order.Error) {
+
+                }
+                else {
+                }
+
+            });
+
+            event.preventDefault();
+            location.href = '/GoIndex'
+
+         }
+
+        </script>
+<script type="text/javascript">
+	$(document).ready(function() {
+
+	$('form').on('submit', function(event) {
+
+		$.ajax({
+			data : {
+				user_input : $('#dataSearch').val(),
+			},
+			type : 'POST',
+			url : '/process'
+		})
+		.done(function(Menu) {
+
+			if (Menu.Error) {
+
+			}
+			else {
+			  if ((Menu.Menu.length) < 7) {
+			       $("#Scrollable").attr('class','row ml-1');
+			  }else{
+			       $("#Scrollable").attr('class','row ml-1 pre-scrollable mt-2');
+			  }
+
+			  var div = document.getElementById('items');
+              while(div.firstChild){
+                  div.removeChild(div.firstChild);
+              }
+			  for (var i = 0 ; i < Menu.Menu.length ; i++){
+			      var MenuHtml = '<div data-price="290" class="item"> <img src="'+Menu.Menu[i].Img+'" alt="jacket" class="img "><div class="info"><h3>'+Menu.Menu[i].Name +
+			      '</h3><p class="descroption">' + Menu.Menu[i].Category + '</p> <h5>' + Menu.Menu[i].Price +'</h5> </div> </div>'
+			      $("#items").append( MenuHtml);
+
+			  }
+			}
+
+		});
+
+		event.preventDefault();
+
+	});
+
+});
+</script>
+</html>

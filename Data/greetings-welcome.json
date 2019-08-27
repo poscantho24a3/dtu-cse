@@ -1,0 +1,7 @@
+[
+    {"class": "Greetings-Welcome", "sentence": "tôi có thể làm điều gì cho bạn ?"},
+    {"class": "Greetings-Welcome", "sentence": "tôi có thể giúp gì cho bạn"},
+    {"class": "Greetings-Welcome", "sentence": "thật vui khi thấy bạn ở đây, tôi có thể hỗ trợ gì cho bạn"},
+    {"class": "Greetings-Welcome", "sentence": "cửa hàng chúng tôi rất vui được tiếp đón bạn, tôi có thể hỗ trợ gì cho bạn"},
+    {"class": "Greetings-Welcome", "sentence": "thật vui khi thấy bạn đến đây, tôi có thể giúp gì cho bạn"}
+]

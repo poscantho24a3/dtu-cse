@@ -1,0 +1,23 @@
+DEFAULT_LANGUAGE = 'vi-VN'
+DEFAULT_SPEED = '1'
+DEFAULT_FOLDER_AUDIO = 'Audio'
+
+DEFAULT_PATH_PROCESSING = 'data/complains.json'
+
+DEFAULT_PATH_COMPLAINT_RESPONSE = 'data/response-complains.json'
+
+DEFAULT_PATH_GREETINGS_GOODBYE = 'data/greetings-goodbye.json'
+
+DEFAULT_PATH_GREETINGS_WELCOME = 'data/greetings-welcome.json'
+
+DEFAULT_PATH_ORDER = 'data/orders.json'
+
+DEFAULT_FOLDER_AUDIO_GREETINGS_WELCOME = DEFAULT_FOLDER_AUDIO + '/Greetings-Welcome'
+
+DEFAULT_FOLDER_AUDIO_COMPLAINT = DEFAULT_FOLDER_AUDIO + '/Complaint-Response'
+
+DEFAULT_FOLDER_AUDIO_ORDER = DEFAULT_FOLDER_AUDIO + '/Order'
+
+DEFAULT_USER_INFORMATION = 'Data/shopping_history.json'
+
+DEFAULT_PATH_HISTORY = 'data/shopping_history.json'
